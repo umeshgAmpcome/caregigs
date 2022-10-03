@@ -1,0 +1,15 @@
+//Abstract
+@import "./abstract/mixins";
+@import "./abstract/variables";
+
+//Layout
+@import "./Layout/Navbar";
+@import "./Layout/Layout.scss";
+@import "./Layout/Footer.scss";
+
+//Pages
+@import "./pages/home.scss";
+@import "./pages/professionals.scss";
+@import "./pages/nursing.scss";
+@import "./pages/company.scss";
+@import "./pages/contactus.scss"

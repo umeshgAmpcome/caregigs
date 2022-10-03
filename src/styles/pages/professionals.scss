@@ -1,0 +1,130 @@
+.professionals {
+  width: 95%;
+  margin: 5%;
+  // height: 300vh;
+  max-height: 500vh;
+
+  & .inner {
+    // border: 2px solid black;
+    display: flex;
+    flex-direction: column;
+    & #inner_child1 {
+      display: flex;
+      height: 80vh;
+      flex-direction: row;
+      justify-content: space-evenly;
+      & .left {
+        width: 50%;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        h2 {
+          color: #0b3558;
+          font-family: "Nunito";
+          // font-size: 3rem;
+          // height: 20%;
+          // max-height: 60%;
+        }
+        p {
+          text-align: left;
+          padding-bottom: 10%;
+        }
+        & .applybtn {
+          margin-right: 15%;
+          & a {
+            padding: 1.6% 8%;
+            &:nth-child(2) {
+              padding: 1.4% 4%;
+            }
+          }
+        }
+      }
+      & .right {
+        width: 40%;
+        height: 70vh;
+        border-radius: 5%;
+        background-position: center;
+        background-size: cover;
+        background-image: url("https://img.freepik.com/free-photo/woman-doctor-wearing-lab-coat-with-stethoscope-isolated_1303-29791.jpg?w=900&t=st=1664259143~exp=1664259743~hmac=e3096c7426e3ef01f15924029b8011369c2cd2973ee88df9b63981595d6ef150");
+        -webkit-border-radius: 5%;
+        -moz-border-radius: 5%;
+        -ms-border-radius: 5%;
+        -o-border-radius: 5%;
+      }
+    }
+    & #inner_child2 {
+      background-color: #f7faff;
+      // border: 2px solid red;
+      width: 100%;
+      height: 70vh;
+      align-items: center;
+      justify-content: center;
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      color: #0b3558;
+      & .child2_content {
+        width: 320px;
+        padding: 2%;
+        height: 40vh;
+        margin: 2%;
+        box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+        & h3 {
+          margin: 4% 0% 4% 0%;
+        }
+        & p {
+          font-size: 1.1rem;
+        }
+      }
+      & .child2_content:hover {
+        box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+      }
+    }
+    & #inner_child3 {
+      & .carousol {
+        // border: 2px solid orange;
+        & .carousol_item {
+          background-color: #e1f1fe;
+          height: 80vh;
+          margin: 5% auto;
+          width: "100%";
+          & .profile-header {
+            display: flex;
+            width: 100%;
+            flex-direction: row;
+            align-items: center;
+            justify-content: center;
+            padding-top: 30px;
+            & .profile-image {
+              width: 50%;
+            }
+            & .profile_content {
+              width: 50%;
+              display: flex;
+              flex-direction: column;
+              align-items: flex-start;
+              justify-content: flex-start;
+              height: 70vh;
+              margin-right: 10%;
+              & .content_head {
+                font-size: 0.9rem;
+              }
+              & h1 {
+                // background-color: forestgreen;
+                margin-bottom: 5%;
+              }
+              & p {
+                width: 100%;
+              }
+            }
+          }
+        }
+        margin-bottom: 10%;
+      }
+    }
+    & #inner_child4 {
+      // border: 2px solid brown;
+      width: 100%;
+    }
+  }
+}
